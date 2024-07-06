@@ -1,0 +1,53 @@
+.todoItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem; 
+  }
+  
+  .todoDetails {
+    display: flex;
+    align-items: center;
+    gap: 1rem; 
+  }
+  
+  .todoTextContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem; 
+    justify-content: center;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+  
+  .todoDate {
+    color: rgba(255, 255, 255, 0.5); 
+    font-size: 0.75rem; 
+  }
+  
+  .todoActions {
+    display: flex;
+    gap: 0.25rem; 
+  }
+  
+  .actionButton {
+    width: 2.5rem; 
+    height: 2.5rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.375rem; 
+    transition: all 0.3s ease; 
+  }
+  
+  .actionButton:hover {
+    background-color: rgba(255, 255, 255, 0.15); 
+  }
+  
+  .trashIcon {
+    color: #ef4444; 
+  }
+  

@@ -1,0 +1,33 @@
+.relativeContainer {
+    position: relative;
+    z-index: 10;
+  }
+  
+  .backdrop {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(75, 85, 99, 0.75); 
+    transition: opacity 0.3s ease;
+    backdrop-filter: blur(4px);
+  }
+  
+  .wrapper {
+    position: fixed;
+    inset: 0;
+    z-index: 10;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .closeButton {
+    align-self: flex-end;
+    margin: 1rem 0; 
+    color: #18181b; 
+    background-color: rgba(255, 255, 255, 0.6); 
+    border-radius: 9999px; 
+    padding: 0.25rem; 
+  }
+  
